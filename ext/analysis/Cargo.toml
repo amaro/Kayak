@@ -7,7 +7,12 @@ authors = ["ankitb"]
 crate-type = ["dylib"]
 
 [dependencies]
-sandstorm = {path = "../../sandstorm"}
-util      = {path = "../../util"}
+quote        = "= 1.0.9"
+proc-macro2  = "= 1.0.26"
+serde        = "= 1.0.37"
+serde_derive = "= 1.0.37"
 bincode   = "1.0"
 rustlearn = "0.5.0"
+once_cell    = "= 1.8.0"
+sandstorm = {path = "../../sandstorm"}
+util      = {path = "../../util"}

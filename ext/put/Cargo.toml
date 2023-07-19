@@ -7,4 +7,8 @@ authors = ["Chinmay Kulkarni <chnm.kulkarni@gmail.com>"]
 crate-type = ["dylib"]
 
 [dependencies]
+quote        = "= 1.0.9"
+proc-macro2  = "= 1.0.26"
+serde        = "= 1.0.37"
+serde_derive = "= 1.0.37"
 sandstorm = { path = "../../sandstorm" }

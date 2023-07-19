@@ -7,6 +7,11 @@ authors = ["Jacob Barzee <jmbarzee@gmail.com>"]
 crate-type = ["dylib"]
 
 [dependencies]
+rust-crypto  = "0.2.36"
+openssl      = "= 0.10.41"
+once_cell    = "= 1.8.0"
+quote        = "= 1.0.9"
+proc-macro2  = "= 1.0.26"
+serde        = "= 1.0.37"
+serde_derive = "= 1.0.37"
 sandstorm = { path = "../../sandstorm" }
-rust-crypto = "0.2.36"
-openssl = "0.10.24"
